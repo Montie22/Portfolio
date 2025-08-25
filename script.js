@@ -285,7 +285,7 @@ function initSkillBars() {
                     skillsObserver.unobserve(entry.target);
                 }
             });
-        }, { threshold: 0.5 });
+        }, { threshold: 0.1 });
         
         skillsObserver.observe(skillsSection);
     }
